@@ -23,6 +23,7 @@ export default function Projects() {
                 alt={`${project.name} preview`}
                 label={`[PROJECT_${index + 1}_IMAGE]`}
                 variant="project"
+                fit={project.imageFit}
               />
 
               <div className="project-card__body">

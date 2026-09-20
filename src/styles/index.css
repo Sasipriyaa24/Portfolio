@@ -435,6 +435,9 @@ a {
   aspect-ratio: 16 / 10;
   border-bottom: 1px solid var(--line);
 }
+.image-box--project.image-box--fit-contain img {
+  object-fit: contain;
+}
 .image-box__placeholder {
   position: absolute;
   inset: 0;

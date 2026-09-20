@@ -7,13 +7,14 @@ export default function ImageBox({
   alt,
   label,
   variant = "project", // "project" | "avatar"
+  fit = "cover",
   priority = false,
 }) {
   const filled = isFilled(src);
 
   return (
     <div
-      className={`image-box image-box--${variant}${filled ? " image-box--filled" : ""}`}
+      className={`image-box image-box--${variant} image-box--fit-${fit}${filled ? " image-box--filled" : ""}`}
     >
       {filled ? (
         <img

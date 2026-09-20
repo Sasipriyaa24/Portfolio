@@ -126,6 +126,7 @@ export const projects = [
   {
     // [PROJECT_1_IMAGE] → e.g. "/images/project-1.png"  (landscape, about 16:10)
     image: "/images/project1.png",
+    imageFit: "contain",
     // [PROJECT_1_NAME]
     name: "Dev Connect",
     // [PROJECT_1_DESCRIPTION] → 2 lines. Delete the sample sentence.
